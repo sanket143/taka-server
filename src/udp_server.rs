@@ -36,7 +36,7 @@ pub fn serve(){
             value: models::Value {
               x: 0,
               y: 0,
-              val: 1,
+              val: resp[1].parse().unwrap(),
             },
           },
           "P" => models::Event {
